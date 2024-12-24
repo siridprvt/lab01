@@ -34,19 +34,7 @@
         <button onclick="verify()">Login</button>
         <h3> New user? <a href="register.html">Register</a></h3>
     </div>
-    <script>
-        function verify(){
-            var un=document.getElementById("username").value;
-            var pwd=document.getElementById("password").value;
-            if(un==="cvr" && pwd==="cvr123"){
-                window.location.href="home.html"
-            }
-            else{
-                alert("Please enter valid credentials");
-                console.log("Valid credentials aren't entered");
-            }
-        }
-    </script>
+    <script src="./login.js"></script>
 </body>
 
 </html>
